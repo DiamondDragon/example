@@ -16,7 +16,7 @@ namespace Example.Tests
             var result = cat.Talk();
 
             // Then
-            Assert.AreEqual("Meow", result);
+            Assert.AreEqual("Meow`12", result);
         }
 
         [Test]
